@@ -29,7 +29,7 @@ function Navbar() {
             </button>
             <button className='px-8 py-3'>Sign up</button>
           </div>
-          <div className='md:hidden' onClick={handleClick}>
+          <div className='md:hidden mr-5' onClick={handleClick}>
             {!nav ? (
               <FontAwesomeIcon icon={faBars} className='w-5' />
             ) : (
